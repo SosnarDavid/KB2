@@ -1,1 +1,76 @@
+Software: 
+Operační systém 
+Aplikační program 
 
+ BIOS zná technické vybavení počítače 
+
+ Rozdělení Sw-licence 
+Zdarma – public domain, open source(GPL) 
+
+ BEZ PLACENÍ 
+PD FREE 
+Open Source 
+
+ Shareware 
+Demoverze 
+
+ POPLATEK 
+KP (komerční programy) 
+!! OEM software !! 
+
+ Autorský zákon 
+
+ Licenční ujednání 
+Porušení AZ - trestný čin 
+
+ Operační paměť 
+
+ OS 
+Aplikace 
+Bezpečnostní software (Antivir + Firewall) 
+
+ Úkoly OS 
+
+ Organizace přístupu k datům 
+Jméno + heslo 
+Touch ID 
+Face ID 
+Uživatelská práva - skupiny uživatelů: 1. Administrators, 2. Users 
+
+ Linux-Ubuntu 
+Firewall 
+Antivir 
+Heslo, login 
+Uživatelská práva 
+
+ $ sudo apt update 
+$ sudo apt install clamtk 
+
+ Instalace a nastavení firewallu 
+$ sudo apt install ufw 
+
+Pravidla ufw 
+$ sudo ufw allow 3389 (RDP) 
+$ sudo ufw allow 22 (ssh) 
+$ s. u. a. 80 (http) 
+$ s. u. a. 443 (https) 
+$ s. u. a. 53 (DNS) 
+
+ TERMINÁL 
+
+Historie příkazů 
+Soubor .bash_history -----> skrytý soubor 
+#$ cat .bash_history 
+#$ history –c ------> zabrání zápisu do souboru 
+
+Vzdálený přístup k příkazové řádce 
+Ssh - zabezpečený přístup, šifrované spojení 
+!!!Telnet - nezabezpečený přístup, komunikuje nešifrovaně!!! NE 
+
+ Ssh - zjištění stavu služby 
+#$ systemctl status ssh 
+
+192.168.1.50/24 
+NET ID        HOST ID 
+192.168.1.50 
+255.255.255.0 
